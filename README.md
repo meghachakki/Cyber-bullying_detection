@@ -38,9 +38,4 @@ pickle/TFIDFvectorizer.pkl: TF-IDF vectorizer (from the original implementation)
 
 pickle/bestmodel.pkl: Trained model (from the original implementation).
 
-#Key Functions
-detect_and_translate(text): Detects the language of the text and translates it to English if necessary.
 
-clean_text(text): Cleans the input text by removing URLs, mentions, hashtags, and non-alphanumeric characters.
-
-predict(text): Uses the BERT model to predict if the text contains cyberbullying content.
