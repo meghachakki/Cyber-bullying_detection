@@ -29,11 +29,18 @@ Click the "Predict" button to see the results.
 The app will display the original, translated, and processed text along with the prediction result and the model's confidence score.
 # Project Structure
 app.py: Main script to run the Streamlit app.
+
 requirements.txt: List of dependencies required to run the app.
+
 icons/logo.png: Logo used in the app's interface.
+
 pickle/TFIDFvectorizer.pkl: TF-IDF vectorizer (from the original implementation).
+
 pickle/bestmodel.pkl: Trained model (from the original implementation).
+
 #Key Functions
 detect_and_translate(text): Detects the language of the text and translates it to English if necessary.
+
 clean_text(text): Cleans the input text by removing URLs, mentions, hashtags, and non-alphanumeric characters.
+
 predict(text): Uses the BERT model to predict if the text contains cyberbullying content.
